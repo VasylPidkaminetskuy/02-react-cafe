@@ -21,7 +21,7 @@ export default function App() {
     : 0;
 
   const canreset = () => {
-    return totalVotes  > 0 ? true : false;
+    return totalVotes > 0 ? true : false;
   };
 
   return (
@@ -37,9 +37,9 @@ export default function App() {
           votes={votes}
           totalVotes={totalVotes}
           positiveRate={positiveRate}
-        />  
+        />
       ) : (
-        <Notification/>
+        <Notification />
       )}
     </div>
   );
