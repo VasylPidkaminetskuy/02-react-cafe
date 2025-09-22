@@ -21,7 +21,7 @@ export default function App() {
     : 0;
 
   const canreset = () => {
-    return votes.good > 0 || votes.neutral > 0 || votes.bad > 0;
+    return totalVotes  > 0 ? true : false;
   };
 
   return (
